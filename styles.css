@@ -1,0 +1,42 @@
+/* Reset de estilos padrão do navegador */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Cor de fundo da navbar */
+}
+
+ul {
+    list-style: none; /* Remove os marcadores de lista */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 10px 0; /* Espaçamento interno na navbar */
+}
+
+li {
+    margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+a {
+    text-decoration: none; /* Remove a decoração de link padrão (sublinhado) */
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o texto dos links ao passar o mouse */
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
